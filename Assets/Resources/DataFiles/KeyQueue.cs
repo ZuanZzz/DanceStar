@@ -7,6 +7,7 @@ public class KeyQueue : ScriptableObject
     [SerializeField]
 
     public List<int[]> KeyQueueList = new List<int[]>();
+    public List<GameObject> KeyPrefabList;
 
     private void OnEnable()
     {
